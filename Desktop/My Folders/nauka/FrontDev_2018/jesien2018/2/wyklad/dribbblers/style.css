@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(assets/fonts/BebasNeue-Regular.woff2) format('woff2'),
+        url(assets/fonts/BebasNeue-Regular.woff) format('woff');
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.navigation_button {
+    z-index: 10;
+    position: absolute;
+    top: 27%;
+    right: 172px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+
+}
+
+.basket {
+    background: #1B509F;
+    background-image: url(assets/images/basket\ icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+aside {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    width: 214px;
+    height: 100vh;
+    background: #ffffff;
+}
+
+aside .aside_logo_big {
+    background-color: #272125;
+    background-image: url(assets/images/logo.svg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 20%;
+}
+
+aside .aside_content {
+    margin: 50% 3% 3% 3%;
+    min-height: 76%;
+}
+
+aside .menu {
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-weight: 700;
+    line-height: 17px;
+    color: #272125;
+    margin-bottom: 20%;
+}
+
+aside li {
+    padding-bottom: 60px;
+}
+
+.menu_active {
+    color: #EC2D6D;
+}
+
+.aside_counter {
+    text-align: center;
+    padding-bottom: 25%;
+}
+
+.aside_counter>* {
+    display: block;
+}
+
+.aside_counter_text {
+    text-transform: uppercase;
+    color: #272125;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.aside_counter_number {
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    color: #272125;
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.social_box {
+    margin: 0 auto;
+    font-size: 0;
+    width: 154px;
+    border-top: 2px solid #27212580;
+    border-bottom: 2px solid #27212580;
+}
+
+.social_box>* {
+    display: inline-block;
+    width: 25%;
+    margin: 20px auto;
+}
+
+.social_box div:nth-child(3) {
+    text-align: center;
+}
+
+.social_box div:nth-child(4) {
+    text-align: right;
+}
+
+.signature {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-top: 7%;
+}
+
+.back_image {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.back_image_1 {
+    background-image: url(assets/images/mainback.png);
+}
+
+.welcome_group {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.welcome_shape {
+    width: 656px;
+    height: 410px;
+    background-color: #ffffff;
+    clip-path: polygon(0 8%, 100% 0, 85% 100%, 76% 90%, 17% 80%);
+}
+
+.welcome_text_group {
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    text-align: center;
+}
+
+.black_shape {
+    background-color: #272125;
+    left: 0;
+    width: 540px;
+    height: 88px;
+}
+
+.welcome_text_group span {
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 120px;
+}
+
+.welcome_text_group .weclome_text {
+    margin-left: 7%;
+}
+
+.welcome_text_group .welcome_text_meetup {
+    font-size: 68px;
+    margin-left: 10%;
+}
+
+.welcome_text_group .light_beige {
+    color: #E3DAD3;
+}
+
+.welcome_text_group span.menu_active {
+    position: absolute;
+    left: 15%;
+    top: 91px;
+}
+
+.back_image_2 {
+    background: #E3DAD3;
+}
+
+.schedule_block {
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translateY(-50%);
+    width: 853px;
+    height: 648px;
+    background: #ffffff;
+    border: 2px solid #272125;
+}
+
+.schedule_block_person_shape {
+    clip-path: polygon(18% 0, 100% 0%, 92% 87%, 0 100%);
+    background: #E694C0;
+    width: 171px;
+    height: 143px;
+    margin-left: -100px;
+    margin-top: 150px;
+}
+
+.schedule_block_person_image {
+    background-image: url(assets/images/player.svg);
+    width: 146px;
+    height: 150px;
+}
+
+.back_image_3 {
+    background: #E694C0;
+}
+
+.back_image_4 {
+    background-image: url(assets/images/map.svg);
+}
