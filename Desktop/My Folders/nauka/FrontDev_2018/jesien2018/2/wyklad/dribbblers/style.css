@@ -227,6 +227,14 @@ aside li {
     height: 150px;
 }
 
+.schedule_block_content {
+    margin-left: 104px;
+}
+
+.schedule_block_content_single h3 {
+    display: inline-block;
+}
+
 .back_image_3 {
     background: #E694C0;
 }
